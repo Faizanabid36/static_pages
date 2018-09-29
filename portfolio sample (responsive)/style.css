@@ -1,0 +1,206 @@
+*{
+	padding: 0px 0px;
+	margin: 0 0;
+	text-decoration: none;
+}
+
+body{
+}
+header{
+	width: 100%;
+	background-color: #fff;
+	height: 100px;
+}
+header a span{
+	color: #606060;
+}
+header .header-logo{
+	font-family: rockwell;
+	font-weight: bold;
+	font-size: 30px;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+	padding: 20px 0; 
+	color: #111;
+}
+header nav ul{
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+header nav ul li{
+	display: inline-block;
+	float: left;
+	padding: 0 18px;
+}
+header nav ul li a{
+	font-family: rockwell;
+	font-size: 18px;
+	color: #111;
+}
+header .header-cases{
+	display: none;
+}
+@media only screen and (min-width:1000px){
+	header .header-logo{
+		float: left;
+		margin: 30px 0;
+		text-align: left;
+		line-height: 40px;
+		padding: 0 20px 0 40px;
+		border-right:3px solid #111;  
+	}
+	header a span{
+	color: #111;
+}
+	header nav ul{
+		float: left;
+		margin: 0 auto;
+		margin: 20px 0 0 20px;
+		text-transform: uppercase;
+	}
+	header nav ul li a{
+		line-height: 60px;
+	}
+	header .header-cases{
+		float: right;
+		padding: 0 20px;
+		font-family: rockwell;
+		font-size: 17px;
+		color: #111;
+		text-transform: uppercase;
+		display: block;
+		border: 2px solid #111;
+		line-height: 40px;
+		margin: 28px 40px 28px 0;
+	}
+}
+
+.index-banner{
+	width: 100%;
+	background-image: url(assets/index-banner.jpg);
+	height: calc(100vh - 100px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: table;
+}
+.index-banner .content-wrapper{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.index-banner h1{
+	font-family: segoe ui;
+	font-size: 60px;
+	text-align: center;
+	color: #fff;
+	text-transform:uppercase;
+	text-shadow: 2px 2px 8px #111;
+	line-height: 70px;
+}
+.index-banner h2{
+	font-family: berlin sans ms;
+	text-shadow: 2px 2px 8px #111;
+	line-height: 40px;
+	font-size: 28px;
+	font-style:italic;
+	font-weight: 50; 
+	text-align: center;
+	color: #fff;
+	padding: 10px 30px 0;
+}
+section a div{
+	margin: 16px 16px 0;
+	width: calc(100% - 32);
+	background-color: #f3f3f3;
+	height: 100px;
+}
+section div h3{
+	font-family: georgia;
+	color: #111;
+	line-height: 100px;
+	font-weight: 700;
+	font-size: 26px;
+	text-transform: uppercase;
+	display: block;
+	text-align: center;
+}
+@media only screen and (min-width:1000px){
+	.index-banner{
+		height: 450px;
+	}	
+	.index-banner h2{
+		display: block;
+		width: 480px;
+		margin: 0 auto;
+	}
+	.wrapper{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.links div{
+		margin: 20px 10px 0px;
+		height: 225px;
+		float: left;
+	}
+	.links{
+		overflow: hidden;
+	}
+	.link-sq{
+		width: calc(30% - 20px);
+	}
+	.link-rect{
+		width: calc(70% - 20px);
+	}
+	section div h3{
+		line-height: 225px;
+	}
+}
+
+footer{
+	overflow: hidden;
+	margin-top: 20px;
+	width: calc(100% - 80px);
+	padding: 40px 40px;
+	background-color: #111;
+	color: white;
+}
+footer ul{
+	width: fit-content;
+	float: left;
+	padding-left:20px; 
+}
+footer ul li {
+	display: block;
+	list-style: none;
+	font-size: 24px;
+	line-height: 40px;
+}
+footer ul li a{
+	color: white;
+	font-family: berlin sans ms;
+}
+.my-cases{
+	display: none;
+}
+.sm{
+	width: 40px;
+	float: right;
+}
+.sm img{
+	width: 100%;
+	height: auto;	
+	margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 1000px){
+	.my-cases{
+		display: block;
+		padding-left: 75px;
+	}
+	footer ul{
+		padding-left: 30px;
+	}
+}
